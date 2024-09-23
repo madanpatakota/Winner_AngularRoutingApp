@@ -1,0 +1,19 @@
+ul{
+    list-style: none;
+    
+}
+
+li{
+    display: inline;
+    margin:10px;
+
+}
+
+div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+}

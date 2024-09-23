@@ -1,0 +1,19 @@
+<h1 style="background-color: orange">Orders Page!</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let order of GetOrders">
+      <td>{{ order.id }}</td>
+      <!-- <td>{{ order.name }}</td> -->
+      <!-- <a routerLink="home"> Home </a> -->
+      <td><a routerLink="order-details" >{{ order.name }}</a></td>
+      <!-- <a routerLink="order-details"> Order details </a> -->
+    </tr>
+  </tbody>
+</table>
